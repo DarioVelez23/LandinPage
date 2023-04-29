@@ -1,0 +1,55 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+
+body{
+font-size: 20px;
+
+}
+
+.menu {
+
+height: auto;
+width: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.Logo {
+color: black;
+font-size: 50px;
+padding: 0 80px;
+font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.menuitems {
+ color: blue;
+ display: flex;
+ list-style: none;
+ margin-right: 50px;
+
+}
+
+.menuitems li  {
+
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menuitems li a {
+padding: 7px 13px;
+text-decoration: none;
+font-size: 25px;
+display: block;
+text-transform: uppercase;
+color: black;
+}
